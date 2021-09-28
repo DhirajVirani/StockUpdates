@@ -1,0 +1,72 @@
+/*Registration styling*/
+
+.center_text{
+    text-align: center;
+}
+.a_reg{
+    color:#6E3CA2;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 25px;
+}
+#regback{
+    background-image: url(registrationbackground.jpg);
+    background-size: cover;
+
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    text-align: left;
+}
+input{
+    width: 350px;
+    height: 35px;
+  
+}
+.regform{
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 40px;
+    margin-left: 1050px;
+    font-size: 20px;
+    color: white;
+    background-color:#6E3CA2 ;
+    align-content: center;
+
+}
+
+.s_text{
+    font-size: 15px;
+}
+input.defaultcheckbox{
+    width: 15px;
+    height: 15px;
+}
+
+input.signupbutton{
+    width: 100px;
+}
+.signupbutton {
+     background:white;
+     color:#6E3CA2;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+.signupbutton:hover {
+     cursor: pointer;
+     background:lightgray;
+     color:#6E3CA2;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+
+.a_signin{
+    color: lightgray;
+}
